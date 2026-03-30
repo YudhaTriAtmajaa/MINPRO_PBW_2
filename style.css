@@ -44,7 +44,7 @@ body {
     filter: invert(1);
 }
 
-/* ========== HOME ========== */
+/* HOME */
 #home {
     min-height: calc(100vh - 64px);
     display: flex;

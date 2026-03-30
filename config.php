@@ -1,13 +1,8 @@
 <?php
-// ============================================================
-//  config.php  —  Koneksi ke MySQL
-//  Sesuaikan DB_USER dan DB_PASS dengan milik kamu
-// ============================================================
-
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');   // ganti sesuai user MySQL kamu
-define('DB_PASS', '');       // ganti sesuai password MySQL kamu
-define('DB_NAME', 'portofolio_db');
+define('DB_USER', 'root');   
+define('DB_PASS', '');      
+define('DB_NAME', 'portofolio_yuda');
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 $conn->set_charset('utf8mb4');
